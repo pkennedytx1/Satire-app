@@ -1,0 +1,38 @@
+{
+  "name": "the-satire",
+  "version": "1.0.0",
+  "description": "A data scraping app that retrieves satire new articles for entertainment purposes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkennedytx1/the-satire.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkennedytx1/the-satire/issues"
+  },
+  "homepage": "https://github.com/pkennedytx1/the-satire#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "http": "0.0.0",
+    "module_name": "^1.0.0",
+    "mongoose": "^5.5.3",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "pusher": "^2.2.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "10.x"
+  }
+}
