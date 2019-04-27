@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const logger = require("morgan");
 const mongoose = require('mongoose');
 const exphbs = require('express-handlebars');
+var cors = require('cors');
 var io = require('socket.io')(http);
 
 // Require models
@@ -14,6 +15,7 @@ const app = express();
 var http = require('http').Server(app);
 
 // Middleware 
+app.use(cors());
 app.use(logger("dev"));
 app.use(bodyParser.urlencoded({
     extended: true
